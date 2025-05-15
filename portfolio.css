@@ -1,0 +1,300 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+}
+.logo-section{
+    display: flex;justify-content: space-between;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 50px;
+    width: 100px;
+   
+}
+.logo-name{
+    font-size: 20px;
+    color: rgb(34, 33, 32);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.nav-links{
+    gap:30px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(212, 235, 231);
+    font-size: 21px;
+    padding-right: 30px;
+    align-items: center;
+    text-align: center;
+    font-weight: 650;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.nav-links a:hover{
+    color: aqua;
+}
+.blog-section{
+    margin: 40px;
+    
+    height: 600px;
+    border-radius: 20%;
+}
+.heading{
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.Blog{
+    /* margin: 40px; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+
+
+}
+.Blog a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.blog-box{
+    height: 350px;
+    width: 300px;
+    
+}
+.blog-box img{
+    height: 85%;
+    width: 300px;
+    border-radius:20% 20% 0% 0%;
+
+}
+.blog-box button{
+     height: 50px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgb(49, 44, 75);
+    color: antiquewhite;
+
+}
+.blog-box button:hover{
+     background-color: rgba(5, 182, 230, 0.637);
+    color: black;
+
+}
+/* projectss */
+
+.heading{
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    width: 400px;
+    padding-bottom: 35px;
+    margin-left: 620px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 3px rgba(5, 76, 92, 0.403);
+
+}
+
+.project-section{
+    margin: 50px;
+    margin-top: 100px;
+    
+    height: 700px;
+    border-radius: 2% 60% 2% 60%;
+    padding-top: 50px;
+}
+ .project{
+    /* margin: 40px; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-right: 60px;
+
+
+ } 
+.project-headline{
+    color: rgb(1, 47, 68);
+    font-weight: 700;
+}
+.projects1{
+     margin-top: 120px;
+    display: flex;
+    gap: 200px;
+    margin-left: 200px;
+
+}
+
+.project1{
+    margin-top: 20px;
+    display: flex;
+    gap: 200px;
+    margin-left: 200px;
+}
+.project-img img{
+    border-radius:20% 0% 0% 0% ;
+    height: 260px;
+    width:330px;
+    box-shadow: 4px 4px 4px gray;
+    margin-top: 30px;
+}
+.content1{
+    margin-top: 50px;
+    font-size: 20px;
+    height: 300px;
+    width: 600px;
+    overflow: hidden;
+}
+.content1 a{
+    text-decoration: none;
+}
+.project2{
+    display: flex;
+    gap: 200px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 120px ;
+}
+.project2-img img{
+     border-radius:0% 20% 0% 0% ;
+    height: 260px;
+    width:330px;
+    box-shadow: 4px 4px 4px gray;
+
+}
+.project-button{
+  
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+.project-button button{
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgb(49, 44, 75);
+    color: antiquewhite;
+}
+button:hover{
+    background-color: rgba(5, 182, 230, 0.637);
+    color: black;
+    transition: 0.2s;
+}
+footer{
+    margin-top: 1280px;
+    height: 500px;
+    background-color: black;
+    bottom: 0;
+    color: aliceblue;
+   margin-bottom: 0px;
+   
+}
+.footer{
+display: flex;
+gap: 380px;
+bottom: 0px;
+margin-bottom: 0px;
+}
+.footer h1{
+font-size: 26px;
+}
+.f-box1{
+color: aliceblue;
+margin-left: 90px;
+margin-top: 20px;
+}
+.f-box1 img{
+height: 60px;
+width: 130px;
+
+
+}
+.contact img{
+border-radius: 90%;
+
+}
+.gmail{
+display: flex;
+gap: 20px;
+height: 50px;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+
+}
+.gmail img{
+    height: 40px;
+    width: 40px;
+    border-radius: 90%;
+}
+.messenger{
+display: flex;
+gap: 20px;
+}
+.whatsapp{
+display: flex;
+gap: 20px;
+}
+
+.f-box2{
+margin-top: 80px;
+font-size: 18px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.f-box2 a{
+color: aliceblue;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+}
+
+.f-box3{
+margin-top: 70px;
+}
+.last-part{
+margin-top: 50px;
+height: 50px;
+width: 1650px;
+background-color: rgb(20, 19, 19);
+box-shadow: 3px 3px 3px rgb(48, 48, 48);
+border-radius: 10px;
+align-items: center;
+text-align: center;
+margin-left: 15px;
+padding-top: 16px;
+font-size: 16px;
+
+}
